@@ -1,0 +1,496 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 76px;
+}
+
+.nav-item {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #615e62;
+}
+
+.brand p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 120%;
+    color: #6c757c;
+}
+
+.active {
+    color: #d7371c;
+}
+
+.h1, h1 {
+    font-size: 2.375rem;
+    font-weight: semibold;
+    color: #455d7a;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.h2, h2 {
+    font-size: 1.8rem;
+    color: #c2b8b8;
+}
+
+.h3, h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #455d7a;
+}
+
+.small, small {
+    font-size: 16px;
+    font-weight: 400;
+    color: #615e62;
+
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.hero-image {
+    background: url("../img/hero.png") no-repeat center;
+    background-size: cover;
+    height: 620px;
+    background-position: center;
+}
+
+.hero-text {
+    color: white;
+    padding-top: 100px;
+}
+
+.hero-text h1 {
+  text-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: white;
+  margin-bottom: 0.1rem;
+}
+
+.hero-text h2 {
+    text-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+    font-size: 42px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
+
+.hero-text h3 {
+    text-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+    font-size: 42px;
+    font-weight: lighter;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+}
+
+
+form.hero-search {
+    margin-top: 80px;
+}
+
+/* Style the search field */
+form.hero-search input[type=text] {
+    padding: 10px;
+    font-size: 26px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.hero-search button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 26px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.hero-search button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats */
+form.hero-search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.slick-prev:before, .slick-next:before {
+      color: black;
+}
+
+.book-container {
+    width: 140px;
+}
+
+.book-cover {
+    width: 180px;
+}
+
+.img-cover {
+    width: 120px;
+    margin: auto;
+    min-height: 185px;
+}
+
+.book-description {
+    padding: 15px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.book-title {
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.book-author {
+    margin-bottom: 6px;
+}
+
+.book-editor {
+    font-style: italic;
+}
+
+.panel-blue-container {
+    padding: 20px;
+}
+
+.panel-blue1 {
+    min-height: 240px;
+    background-color: #007398;
+}
+
+.panel-blue2 {
+    border: solid 1px #979797;
+    min-height: 240px;
+    background-color: #004e68;
+}
+
+.panel-blue-container h1 {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.panel-blue-container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+latest-articles {
+    background: #f1f1f1;
+}
+
+.articles-container {
+    color: #505050;
+}
+
+.article {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.articles-container .title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.author {
+    color: #505050;
+    font-weight: bold;
+}
+
+/*#eventos {*/
+    /*background: #4e4e4e;*/
+/*}*/
+
+.event-container h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #455d7a;
+}
+
+.event-description {
+    line-height: 1.2rem;
+    color: #505050;
+}
+
+.event-date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: #4e4e4e;
+    bottom: 0;
+    height: 200px;
+    min-height: 300px;
+    padding: 60px;
+}
+
+.footer-nav {
+    padding-top: 3.8rem;
+}
+
+.footer h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #959595;
+    line-height: 1.6rem;
+    margin-top: 20px;
+}
+
+.footer a {
+    background-color: transparent;
+    color: #959595;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer-logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.acerca-banner {
+    background: url("../img/about.png") no-repeat center;
+    background-size: cover;
+    height: 280px;
+    background-position: center;
+
+}
+
+.recursos-banner {
+    background: url("../img/electronicos.png") no-repeat center;
+    background-size: cover;
+    height: 280px;
+    background-position: center;
+
+}
+
+.catalogos-banner {
+    background: url("../img/book.png") no-repeat center;
+    background-size: cover;
+    height: 280px;
+    background-position: center;
+
+}
+
+.banner-text {
+    color: white;
+    padding-top: 80px;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--white-two);
+    margin-bottom: 0.1rem;
+}
+
+.mision-vision {}
+
+.mision-vision h1 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.mision-vision h2 {
+    color: #c2b8b8;
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+}
+
+.mision-vision h3 {
+    color: #455d7a;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mision-vision p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+
+.mb-huge {
+    margin-bottom: 40px;
+}
+
+.especializacion {
+    background-image: linear-gradient(49deg, #b3b3b3, #0f3e75);
+    min-height: 400px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.especializacion h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.especializacion .card {
+  border-radius: 18px;
+  box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.especializacion .card-body h1 {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #455d7a;
+    margin-top: 20px;
+}
+
+.base-de-datos .card {
+    border: 0px;
+}
+
+.base-de-datos .card-img-top {
+    height: auto;
+    width: 200px;
+}
+
+.base-de-datos .card-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.base-de-datos .card-text:last-child {
+    margin-bottom: 0;
+    line-height: 1.2rem;
+}
+
+.base-de-datos .h5, h5 {
+    color: #4c4c4c;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.base-de-datos p {
+    color: #6f6f6f;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.card-img-container {
+    align-items: center;
+    display: flex;
+    min-height: 110px;
+    justify-content: center;
+}
+
+.card-img-container h1 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.editorial-img {
+    min-height: 110px;
+}
+
+.sitios-interes .card-deck .card {
+    border: solid 1px #979797;
+}
+
+.sitios-interes .list-group-item {
+    margin-top: 1px;
+    border: none;
+    border-bottom: 1px solid #979797;
+
+}
+
+.sitios-interes .card-img-container {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 70px;
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+    min-width: 0;
+    max-width: none;
+}
+
+.catalogos-locales p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #3a3a3a;
+}
+
+.numeralia {
+    padding-top: 60px;
+}
+
+.numeralia h1 {
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
