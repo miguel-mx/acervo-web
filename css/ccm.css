@@ -24,7 +24,7 @@ body {
 
 .h1, h1 {
     font-size: 2.375rem;
-    font-weight: semibold;
+    font-weight: bold;
     color: #455d7a;
     margin-bottom: 60px;
     margin-top: 60px;
@@ -254,6 +254,15 @@ latest-articles {
     margin-bottom: 10px;
 }
 
+#contacto .h4, h4 {
+    color: #777;
+}
+
+/*#editoriales {*/
+    /*background: #3a3a3a;*/
+    /*padding-bottom: 30px;*/
+/*}*/
+
 .footer {
     margin-top: 40px;
     background-color: #4e4e4e;
@@ -335,7 +344,7 @@ latest-articles {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--white-two);
+    color: white;
     margin-bottom: 0.1rem;
 }
 
@@ -445,7 +454,10 @@ latest-articles {
 }
 
 .editorial-img {
-    min-height: 110px;
+    height: 40px;
+    max-width: none;
+    min-width: 0;
+    width: auto;
 }
 
 .sitios-interes .card-deck .card {
@@ -493,4 +505,197 @@ latest-articles {
 .numeralia h1 {
     margin-bottom: 50px;
     margin-top: 0px;
+}
+
+
+/*.catalogos-search-container {*/
+    /*flex: 1;*/
+/*}*/
+
+/*.search-form {*/
+    /*border-color: #616161;*/
+/*}*/
+
+/*.icon-search-wrapper {*/
+    /*width: 30px;*/
+    /*flex: none;*/
+/*}*/
+
+/*.icon-search {*/
+    /*flex: none;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 1;*/
+    /*margin-left: 5px;*/
+    /*width: 18px;*/
+    /*height: 18px;*/
+    /*line-height: 18px;*/
+    /*position: static;*/
+    /*color: #616161;*/
+    /*display: block;*/
+
+/*}*/
+
+/*.search-input {*/
+    /*width: 100%;*/
+    /*padding: 12px 24px;*/
+
+    /*background-color: transparent;*/
+    /*transition: transform 250ms ease-in-out;*/
+    /*font-size: 14px;*/
+    /*line-height: 18px;*/
+    /*color: #616161;*/
+    /*background-color: transparent;*/
+    /*!*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); *!*/
+    /*border-radius: 50px;*/
+    /*border: 1px solid #616161;*/
+/*}*/
+
+/*.search-container {*/
+
+/*}*/
+
+/*.search-form {*/
+    /*border-color: #616161;*/
+/*}*/
+
+/*.icon-search-wrapper {*/
+
+/*}*/
+
+/*.icon-search {*/
+    /*color: #616161;*/
+/*}*/
+
+/*.search-input-wrapper {*/
+
+/*}*/
+
+.global-nav .form-search {
+    float: left;
+    font-size: 18px;
+    height: auto;
+    margin: 15px 0px 60px 0;
+    width: 100%;
+}
+
+.t1-form {
+    margin-bottom: 0;
+}
+
+.form-search {
+    position: relative;
+}
+
+.visuallyhidden {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.global-nav .search-input {
+    background-color: #f5f8fa;
+    border: 1px solid #aaaaaa;
+    border-radius: 21px;
+    box-sizing: border-box;
+    color: #14171a;
+    display: block;
+    font-size: 20px;
+    height: 55px;
+    line-height: 16px;
+    padding: 10px 55px 10px 18px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+}
+
+.global-nav .search-input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, .5);
+}
+
+.global-nav .search-input::placeholder {
+    color: #657786;
+}
+
+.global-nav .search-input::-moz-placeholder {
+    color: #657786;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #657786;
+    opacity: 1;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #657786;
+    opacity: 1;
+}
+
+.global-nav .search-icon {
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 30px;
+}
+
+.Icon--search::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f002";
+}
+
+.Icon::after, .Icon::before {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.global-nav .search-icon .Icon {
+    background-color: transparent;
+    color: #66757f;
+    height: auto;
+    width: auto;
+}
+.Icon--medium {
+    font-size: 18px;
+    line-height: 18px;
+}
+.Icon {
+    background: transparent none repeat scroll 0 0;
+    display: inline-block;
+    font-style: normal;
+    position: relative;
+    vertical-align: baseline;
+}
+
+button {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    border-color: transparent;
+    padding: 0;
+    text-transform: none;
+    overflow: visible;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.color-3a {
+    color: #3a3a3a;
+}
+
+.at:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f005";
+}
+
+.font-weight-normal {
+    font-weight: normal;
 }

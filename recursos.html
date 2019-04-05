@@ -44,7 +44,7 @@
                     <a class="nav-link" href="recursos.html">Recursos Electrónicos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="catalogos.html">Catálogos Locales</a>
+                    <a class="nav-link" href="bases-de-datos.html">Bases de Datos</a>
                 </li>
             </ul>
         </div>
@@ -59,76 +59,90 @@
     </div>
 </div>
 
-<section id="bases-datos">
+<section id="catalogos-locales">
     <div class="container">
-        <h1 class="text-center">Bases de Datos</h1>
-        <div class="card-group base-de-datos mb-huge">
-            <div class="card">
-                <div class="card-img-container">
-                    <img class="card-img-top mx-auto d-block" src="img/zblat.png" alt="ZentralBlatt image">
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">Zentralblatt</h5>
-                    <p class="card-text">Base de datos referencial y bibliográfica especializada en matemáticas. Contiene 3,000,000 registros.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img-container">
-                    <img class="card-img-top mx-auto d-block" src="img/mathscinet.png" alt="MathSciNet image">
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">MathSciNet</h5>
-                    <p class="card-text">Base de datos de matemáticas a nivel mundial, contiene más de 3 millones de artículos y 2 millones de artículos originales.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img-container">
-                    <img class="card-img-top mx-auto d-block" src="img/scopus.png" alt="Scopus image">
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scopus</h5>
-                    <p class="card-text">Base de datos referencial editada por Elsevier contiene 39 millones de resúmenes y  citas de artículos de revistas académicas. </p>
-                </div>
-            </div>
-        </div>
+        <h1 class="text-center">Bases de Datos Locales</h1>
+        <div class="catalogos-locales">
 
-        <div class="card-group base-de-datos mb-huge">
-            <div class="card">
-                <div class="card-img-container">
-                    <img class="card-img-top mx-auto d-block" src="img/sjr.png" alt="Scimago image">
-                </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">Zentralblatt</h5>
-                    <p class="card-text">Base de datos referencial y bibliográfica especializada en matemáticas. Contiene 3,000,000 registros.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img-container">
-                    <img class="card-img-top mx-auto d-block" src="img/clarivate.png" alt="Clarivate image">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10 offset-md-1">
+                    <div class="search-container global-nav">
+                        <form class="t1-form form-search js-search-form" action="/search" id="global-nav-search">
+                            <label class="visuallyhidden" for="search-query">Search query</label>
+                            <input class="search-input" type="text" id="search-query" placeholder="Busqueda catálogos locales" name="q" autocomplete="off" spellcheck="false">
+                            <span class="search-icon js-search-action">
+                                <button type="submit" class="Icon Icon--medium Icon--search nav-search">
+                                   <span class="visuallyhidden">Búsqueda general</span>
+                                </button>
+                            </span>
+                            <div class="mt-3 d-flex justify-content-center color-3a">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Revistas electrónicas</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Catálogos locales</label>
+                            </div>
+                            </div>
+                        </form>
                     </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">MathSciNet</h5>
-                    <p class="card-text">Base de datos de matemáticas a nivel mundial, contiene más de 3 millones de artículos y 2 millones de artículos originales.</p>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-img-container">
-                    <h1 class="d-flex align-self-center">SRB</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Revistas Electrónicas</h3>
                 </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scopus</h5>
-                    <p class="card-text">Base de datos referencial editada por Elsevier contiene 39 millones de resúmenes y  citas de artículos de revistas académicas. </p>
+                <div class="col-md-8">
+                    <p>La Unidad de Documentación del Centro de Ciencias Matemáticas, ofrece a sus usuarios la consulta y recuperación de textos completos de revistas especializadas en matemáticas y áreas afines de más de 1,300 títulos de revistas que adquiere la UNAM por suscripción y canje, así como los títulos que se encuentran disponibles en forma gratuita en la red y que por su calidad y contenido son de utilidad para nuestros usuarios.
+                        <br><br>
+                        Se recomienda que las revistas sean consultadas con fines meramente académicos y no lucrativos, respetando los derechos de autor.</p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <h3>Obras Completas</h3>
+                </div>
+                <div class="col-md-8">
+                    <p>Con el propósito de enriquecer el acervo de la Unidad de Documentación, se han adquirido las obras completas de lo matemáticos más prestigiados a nivel internacional, en esta página se incluyeron algunas obras completas disponibles en formato impreso y electrónico.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="libros-electronicos">
+<section id="blue" class="panel-blue1">
     <div class="container">
         <div class="row">
+            <div class="col-4 panel-blue1">
+                <div class="panel-blue-container">
+                    <h1>Librunam</h1>
+                    <p>LIBRUNAM es el catálogo en el cual se registran los libros impresos y electrónicos adquiridos por el Sistema Bibliotecario y de la Información de la UNAM.</p>
+                </div>
+            </div>
+            <div class="col-4 panel-blue2">
+                <div class="panel-blue-container">
+                    <h1>Seriunam</h1>
+                    <p>SERIUNAM es el catálogo que proporciona información de los títulos y fascículos de revistas impresas y electrónicas disponibles por el Sistema Bibliotecario y de Información de la UNAM.</p>
+                </div>
+            </div>
+            <div class="col-4 panel-blue1">
+                <div class="panel-blue-container">
+                    <h1>Tesiunam</h1>
+                    <p>TESIUNAM es el catálogo en el cual se visualizan las tesis de los sustentantes que obtuvieron un grado académico en la UNAM –licenciatura, maestría y doctorado-, así como las tesis de licenciatura de escuelas incorporadas a la UNAM.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="libros-electronicos">
+    <div class="container">
+        <h1 class="text-center">Libros Electrónicos</h1>
+        <div class="row">
             <div class="col-md-8">
-                <h1>Libros Electrónicos</h1>
                 <p>Libros  electrónicos en texto completo de las editoriales más prestigiadas a nivel mundial, se pueden consultar en cualquier computadora
                     conectada a la red UNAM, sí está fuera del Campus Universitario lo puede hacer a través del <strong>Servicio de Acceso Remoto</strong> que provee la Dirección
                     General de Bibliotecas. Los recursos a los que tenemos disponibilidad de acceso están marcados en verde o tienen un candado abierto,
@@ -136,7 +150,7 @@
                     datos <strong>Librunam</strong>.</p>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-center">
-                    <img src="img/ereader.png" alt="Electronic reader">
+                <img src="img/ereader.png" alt="Electronic reader">
             </div>
         </div>
     </div>
@@ -144,37 +158,36 @@
 
 <section id="editoriales">
     <div class="container">
-        <h3 class="my-5">Editoriales</h3>
+        <h1 class="mb-5 text-center">Editoriales</h1>
 
-        <div class="row my-5">
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/ams.png" alt="American Mathematical Society image"></div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/siam.png" alt="Society for Industrial Applied Math image"></div>
+        <div class="row">
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/ams.png" alt="American Mathematical Society image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/siam.png" alt="Society for Industrial Applied Math image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/europeanms.png" alt="European Mathematical Society image"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/cambridgeup.png" alt="Cambridge University Press image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/springer.png" alt="Springer Editorial image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/taylor&francis.png" alt="Taylor and Francis group image"></div>
         </div>
         <div class="row my-5">
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/europeanms.png" alt="European Mathematical Society image"></div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/cambridgeup.png" alt="Cambridge University Press image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/elsevier.png" alt="Elsevier editorial image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/wiley.png" alt="Wiley online library image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/WSPC-LOGO-250.png" alt="World Scientific image"></div>
         </div>
         <div class="row my-5">
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/springer.png" alt="Springer Editorial image"></div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/taylor&francis.png" alt="Taylor and Francis group image"></div>
-        </div>
-        <div class="row my-5">
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/elsevier.png" alt="Elsevier editorial image"></div>
-            <div class="col-md-6 d-flex align-items-center justify-content-center editorial-img"><img src="img/wiley.png" alt="Wiley online library image"></div>
+            <div class="col-md-4"><img class="editorial-img mx-auto d-block" src="img/degruyter.png" alt="De Gruyter image"></div>
         </div>
     </div>
 </section>
 
-<div class="container">
-    <img class="mx-auto d-block" src="img/wave-1817646_1920.png" alt="Wave image">
-</div>
-
+<!--<div class="container">-->
+<!--<img class="mx-auto d-block" src="img/wave-1817646_1920.png" alt="Wave image">-->
+<!--</div>-->
 <section id="sitios-interes">
     <div class="container">
-        <div class="row my-5">
-            <div class="col-md-4">
-                <h3>Sitios de Interés</h3>
-            </div>
+        <h1 class="text-center">Sitios de Interés</h1>
+        <div class="row mb-5 justify-content-md-center">
             <div class="col-md-8">
                 <p>Vínculos de diversas instituciones relacionadas con información digitalizada en matemáticas, física, estadística, biología y probabilidad, a través de estos enlaces usted podrá consultar, memorias a congresos, obras completas, revistas y libros en texto completo. Algunos con acceso limitado y otros con libre acceso a todos sus contenidos.</p>
             </div>
@@ -260,7 +273,7 @@
                     Centro de Ciencias Matemáticas</h1>
                 <p class="text-right">
                     Lic. Lidia González García<br>
-                    lidia@matmor.unam.mx<br>
+                    lidia<i class="fa fa-at"></i>matmor.unam.mx<br>
                     Morelia: (443)322 2772 <br>
                     RedUNAM: 32772 <br>
                     Horario: 10:00 - 18:00 hrs<br>
@@ -278,7 +291,7 @@
                         <a class="nav-link" href="recursos.html">Recursos electrónicos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="catalogos.html">Catálogos locales</a>
+                        <a class="nav-link" href="bases-de-datos.html">Bases de Datos</a>
                     </li>
                 </ul>
             </div>

@@ -43,7 +43,7 @@
                     <a class="nav-link" href="recursos.html">Recursos Electrónicos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="catalogos.html">Catálogos Locales</a>
+                    <a class="nav-link" href="bases-de-datos.html">Bases de Datos</a>
                 </li>
             </ul>
         </div>
@@ -218,18 +218,24 @@
 
 <section id="contacto">
     <div class="container">
-        <h1>Contacto</h1>
+        <h1>Directorio</h1>
         <div class="row">
-            <div class="col-md-9">
-
-            </div>
-            <div class="col-md-3">
-                <h4>Coordinador de la Unidad de Documentación</h4>
+            <div class="col-md-5">
+                <h4><strong>Coordinador</strong></h4>
                 <p>Dr. Jesús Muciño Raymundo</p>
-                <h4>Responsable de la Undiad de Documentación</h4>
-                <p>Lic. Lidia Gonzáles García</p>
-                
+                <h4 class="mt-5"><strong>Responsable</strong></h4>
+                <p>Lic. Lidia González García<br>
+                    lidia<i class="fa fa-at"></i>matmor.unam.mx<br><br>
+
+                    RedUNAM: Ext 32772<br>
+                    Morelia: 443 322 2772<br>
+                    CDMX: 5623 2732<br>
+                </p>
             </div>
+            <div class="col-md-7">
+                <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=unam%20centro%20de%20ciencias%20matem%C3%A1ticas&key=AIzaSyBlSQZ7eh7KGLmXEbrf65dCQaVr64ibwFw&maptype=satellite" allowfullscreen></iframe>
+            </div>
+
         </div>
     </div>
 </section>
@@ -237,7 +243,11 @@
 <section id="numeralia">
     <div class="container numeralia">
         <h1>Numeralia</h1>
-        <canvas id="pubChart" width="400px"></canvas>
+        <div class="row">
+            <div class="col-md-8">
+                <canvas id="pubChart" width="200px"></canvas>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -249,7 +259,7 @@
                     Centro de Ciencias Matemáticas</h1>
                 <p class="text-right">
                     Lic. Lidia González García<br>
-                    lidia@matmor.unam.mx<br>
+                    lidia<i class="fa fa-at"></i>matmor.unam.mx<br>
                     Morelia: (443)322 2772 <br>
                     RedUNAM: 32772 <br>
                     Horario: 10:00 - 18:00 hrs<br>
@@ -267,7 +277,7 @@
                         <a class="nav-link" href="recursos.html">Recursos electrónicos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="catalogos.html">Catálogos locales</a>
+                        <a class="nav-link" href="bases-de-datos.html">Bases de Datos</a>
                     </li>
                 </ul>
             </div>
@@ -292,17 +302,18 @@
     var ctx = document.getElementById('pubChart');
     var chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'line',
+        type: 'bar',
         // The data for our dataset
         data: {
-            labels: ['2013', '2014', '2015', '2016', '2017', '2018', '2019'],
+            labels: ['2016', '2017', '2018', '2019'],
             datasets: [{
                 label: 'Artículos por año',
-                // backgroundColor: 'rgb(255, 99, 132)',
-                borderColor: 'rgb(75, 192, 192)',
-                data: [73, 84, 52, 40, 44, 36, 6],
-                fill: false,
-                lineTension:0.1
+                backgroundColor: ["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)", "rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)"],
+                borderColor :["rgb(255, 99, 132)","rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)"],
+                borderWidth:1,
+                data: [40, 44, 36, 6]
+                // fill: false
+                // lineTension:0.1
             }]
         },
         options: {}
